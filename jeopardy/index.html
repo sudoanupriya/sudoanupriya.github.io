@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HCI in CyberSec Jeopardy</title>
+	<style>
+		body {
+			background-color: #2a3698;
+			color: white;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		h1 {
+			font-size: 5em;
+			margin-bottom: 50px;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			text-shadow: 2px 2px #000;
+		}
+        img {
+        width: 600px;
+        height: auto;
+      }
+		h2 {
+			font-size: 2em;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			text-shadow: 2px 2px #000;
+		}
+		.team {
+			font-size: 1.5em;
+			margin-bottom: 50px;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			text-shadow: 2px 2px #000;
+		}
+		.members {
+			font-size: 1.2em;
+			margin-bottom: 50px;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			text-shadow: 2px 2px #000;
+		}
+		button {
+			background-color: #f4d427;
+			color: #2a3698;
+			border: none;
+			padding: 20px 50px;
+			font-size: 2em;
+			font-weight: bold;
+			display: inline-block;
+			margin-top: 20px;
+			border-radius: 50px;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+			cursor: pointer;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			text-shadow: 1px 1px #000;
+			transition: all 0.3s ease;
+		}
+		button:hover {
+			background-color: #f9e773;
+			color: #2a3698;
+			transform: scale(1.1);
+			box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+		}
+		.logo {
+			margin-bottom: 50px;
+			animation: rotate 2s infinite linear;
+		}
+		@keyframes rotate {
+			from { transform: rotate(0deg); }
+			to { transform: rotate(360deg); }
+		}
+	</style>
+</head>
+<body>
+    <img src="jeopardylogo.png" alt="Jeopardy Logo">
+	<h1>HCI IN CYBERSECURITY </h1>
+	<h2>TEAM 5</h2>
+	<div class="team">
+        <ul type="none">
+            <li>Anupriya Rentala</li>
+            <li>Prerna Bharadwaj</li>
+            <li>Ritika Beniwal</li>
+        </ul>
+    </div>
+	<button onclick="startGame()">Start Game</button>
+	
+	<script>
+		function startGame() {
+			window.location.href = "instructions.html";
+		}
+	</script>
+</body>
+</html>

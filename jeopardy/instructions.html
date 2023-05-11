@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jeopardy Game Instructions</title>
+    <style>
+      body {
+        background-color: #2a3698;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 100px;
+      }
+      h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+      button {
+        font-size: 24px;
+        padding: 10px 20px;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        color: #2a3698;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #e6e6e6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Jeopardy Game Instructions</h1>
+    <p>Welcome to the Jeopardy game! Here are the instructions:</p>
+    <ol>
+      <li>Divide the players into two teams and choose a moderator to share their screen and present the game board.</li>
+      <li>The game board will contain categories and point values for each question. Each team takes turns in choosing a category and point value.</li>
+      <li>The moderator reads the corresponding question and the team has 30 seconds to discuss and submit their answer in the chat.</li>
+      <li>If the team answers correctly, they earn the points for that question. If they answer incorrectly, the other team gets a chance to steal the points by providing the correct answer in the chat.</li>
+      <li>The moderator will reveal the correct answer and award points accordingly.</li>
+      <li>The other team takes a turn to choose a category and point value, and the game continues in this way until the designated time limit has elapsed.</li>
+      <li>At the end of the game, the team with the most points is declared the winner.</li>
+    </ol>
+    <button onclick="startGame()">Start Game</button>
+    <script>
+      function startGame() {
+        window.location.href = "game.html";
+      }
+    </script>
+  </body>
+</html>
